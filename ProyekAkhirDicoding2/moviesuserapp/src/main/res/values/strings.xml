@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movies Catalogue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_show">TV Show</string>
+    <string name="movies">Movies</string>
+    <string name="overview">Overview</string>
+    <string name="detail_movies">Detail Movies</string>
+    <string name="remove_film_alert_title">Remove movies</string>
+    <string name="remove_film_alert_sub">Are you sure you want to delete the movie from favorites?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="8dp"
+    android:background="@color/colorBackground"
+    tools:context=".ui.favorite.movies.MoviesFavFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_movies"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/emptybox"
+        android:layout_gravity="center"
+        app:lottie_loop="true"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+        app:lottie_autoPlay="true"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_movies_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?attr/actionBarSize"
+        tools:listitem="@layout/movies_fav_item" />
+
+</FrameLayout>

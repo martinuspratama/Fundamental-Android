@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/radius_item"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_pic">
+            <ImageView
+                android:id="@+id/img_tv"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/poster_alita"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+            <TextView
+                android:id="@+id/tv_judul_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alita"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_sinopsis_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="sinopsis"
+                android:textSize="14sp"
+                android:textColor="#4D4D4D"
+                android:maxLines="5"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

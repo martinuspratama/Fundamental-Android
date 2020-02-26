@@ -1,0 +1,57 @@
+<resources>
+    <array name="photo">
+        <item>@drawable/hellboy</item>
+        <item>@drawable/frozen</item>
+        <item>@drawable/aladdin</item>
+        <item>@drawable/godzilla</item>
+        <item>@drawable/joker</item>
+        <item>@drawable/mib</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/starisborn</item>
+        <item>@drawable/thenun</item>
+        <item>@drawable/venom</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="judul">Judul Film</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="app_name">List Film</string>
+    <string name="tanggal_rilis">Tanggal Rilis</string>
+    <string-array name="rilis">
+        <item>10 April 2019 (Indonesia)</item>
+        <item>27 November 2019 (Belgia)</item>
+        <item>24 Mei 2019 (Indonesia)</item>
+        <item>29 Mei 2019 (Indonesia)</item>
+        <item>31 Agustus 2019 (Italia)</item>
+        <item>19 Juni 2019 (Indonesia)</item>
+        <item>3 Juli 2019 (Indonesia)</item>
+        <item>19 Oktober 2018 (Indonesia)</item>
+        <item>5 September 2018 (Indonesia)</item>
+        <item>3 Oktober 2018 (Indonesia)</item>
+    </string-array>
+    <string-array name="sinopsis">
+        <item>Pada tahun 1944 ketika Perang Dunia II, para anggota Nazi mencari cara untuk menaklukan dunia dengan cara mengabungkan ilmu pengetahuan dan ilmu gelap untuk bisa membuka portal yang dapat membangkitkan sebuah monster raksasa untuk menguasai bumi yaitu ogdru jahad, raksasa mengerikan dari angkasa yang dikenal sebagai tujuh dewa kematian, mereka disegel di sebuah kristal yang tidak mampu dihancuran. Grigori Rasputin ( karel roden ) dan ilsa haupstein ( biddy hodson ) yang sedang memberikan buku untuk membangkitkan kembali ketika rasputin mati nantinya, sementara itu tentara amerika bersama dengan profesor broom ( john hurt ) mengamati secara diam diam dan ritual itu dimulai dengan menggunakan mesin portal selanjutnya terbuka portal itu setelah itu tentara amerika itu pun melempar granat sehingga terjadi pertempuran profesor yang terluka itupun dihadang oleh karl ruprecht kroenen ( Ladislav Beran ).</item>
+        <item>Tiga tahun setelah peristiwa film pertama, Ratu Elsa, saudara perempuannya Anna, Kristoff, Olaf, dan Sven memulai perjalanan baru di luar tanah air mereka di Arendelle untuk menemukan asal mula kekuatan sihir Elsa dan menyelamatkan kerajaan mereka.</item>
+        <item>Aladdin, seorang anak jalanan yang jatuh cinta pada seorang putri. Dengan perbedaan kasta dan harta, Aladdin pun berusaha mencari jalan agar bisa mejadi seorang pangeran, tak disangka ia menemukan lampu dengan jin di dalamnya. Aladdin pun menggunakan lampu untuk mengubah dirinya menjadi seorang pangeran untuk memenangkan hatiPutri Jasmine, tapi Wazir jahat juga mengejar lampu tersebut untuk menguasai kerajaan.</item>
+        <item>Kisah baru ini mengikuti upaya heroik agensi kripto zoologi Monarch ketika anggotanya berhadapan dengan monster seukuran dewa, termasuk Godzilla yang perkasa, yang harus berhadapan dengan Mothra, Rodan, dan musuh bebuyutannya, si kepala tiga King Ghidorah. Ketika super spesies purba iniyang sebelumnya hanya dianggap mitosbangkit kembali, mereka semua bersaing untuk supremasi, membuat keberadaan manusia tergantung dalam keseimbangan.</item>
+        <item>Pada tahun 1981, seorang komedian gagal bernama Arthur Fleck (Joaquin Phoenix) diabaikan oleh masyarakat dan kemudian menjalani kehidupan yang penuh kejahatan dan kekacauan di kota Gotham.</item>
+        <item>Men in Black selalu melindungi Bumi dari penjahat alam semesta. Dalam petualangan baru ini, mereka harus mengatasi ancaman terbesar mereka hingga saat ini: mata - mata yang ada dalam organisasi Men in Black.</item>
+        <item>Peter Parker (Tom Holland) tengah mengunjungi Eropa untuk liburan panjang bersama temaan-temanya. Sayangnya , Parker tidak bisa dengan tenang menikmati liburannya, karena Nick Fury datang secara tiba-tiba di kamar hotelnya. Selama di Eropa pun Peter harus menghadapi banyak musuh mulai dari Hydro Man, Sandman dan Molten Man.</item>
+        <item>Seorang bintang musik country yang karirnya mulai memudar, Jackson Maine (Bradley Cooper) menemukan sebuah talenta yang sangat berbakat di dalam diri dari seorang musisi muda bernama Ally (Lady Gaga). Maine berhasil mengorbitkan Ally menjadi seorang bintang muda yang menjanjikan. Namun keduanya terlibat hubungan yang lebih jauh dari sekedar mentor dan anak didik. Seiring dengan meroketnya karir dari Ally dan dirinya, Maine mengalami dilema mengenai masalah ini.</item>
+        <item>Ketika seorang biarawati muda di biara terpencil Rumania mengorbankan hidupnya sendiri, seorang pendeta dengan masa lalu yang kelam dan seorang calon biawawati dikirim oleh Vatikan untuk menyelidiki peristiwa ini. Bersama-sama mereka membuka rahasia rahasia yang tidak terduga.</item>
+        <item>Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake. Semuanya ditujukan untuk membuktikan bahwa Dr. Carlton Drake sedang sedang melakukan tindakan jahat menggunakan Symbiote.</item>
+    </string-array>
+    <string-array name="judul">
+        <item>Hellboy</item>
+        <item>Frozen2</item>
+        <item>Aladdin</item>
+        <item>Godzilla king of the monsters</item>
+        <item>Joker</item>
+        <item>Men in Black: International</item>
+        <item>Spider-Man: Far From Home</item>
+        <item>A Star Is Born</item>
+        <item>The Nun</item>
+        <item>Venom</item>
+    </string-array>
+</resources>

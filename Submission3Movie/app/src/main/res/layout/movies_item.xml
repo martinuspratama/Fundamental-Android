@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_movies"
+            android:layout_width="80dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/tv_title_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_movies"
+            android:textColor="@color/colorBlackPrimary"
+            android:textSize="18sp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/img_movies"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_release_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Release"
+            android:layout_toEndOf="@id/img_movies"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/tv_title_movies" />
+
+        <RatingBar
+            android:id="@+id/rating_movies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toEndOf="@id/img_movies"
+            android:layout_below="@+id/tv_release_movies"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

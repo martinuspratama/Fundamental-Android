@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="movies">Film</string>
+    <string name="tv_show">Serial Tv</string>
+    <string name="url_film">id</string>
+    <string name="language_setting">Pengaturan Bahasa</string>
+    <string name="overview">Sinopsis</string>
+    <string name="detailTV">Detail Serial TV</string>
+    <string name="detailMovies">Detail Film</string>
+</resources>

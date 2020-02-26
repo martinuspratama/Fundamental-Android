@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProyekAkhirDicoding</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_show">TV Show</string>
+    <string name="movies">Movies</string>
+    <string name="favorite">Favorite</string>
+    <string name="release">Release</string>
+    <string name="rating">Rating</string>
+    <string name="vote">Vote</string>
+    <string name="title">Title</string>
+    <string name="overview">Overview</string>
+    <string name="search">Search</string>
+    <string name="language">Language</string>
+    <string name="setting">Setting</string>
+    <string name="detail_favorite">Detail Favorite</string>
+    <string name="tv_show_detail">Detail TV Show</string>
+    <string name="search_movies">Search Movies</string>
+    <string name="search_tvshow">Search TV Show</string>
+    <string name="dialy_reminder">Dialy Reminder</string>
+    <string name="dialy_reminder_sub">Active your dialy reminder</string>
+    <string name="reminder_release_movies">Active reminder for release movies</string>
+    <string name="search_hint_movies">Search movies...</string>
+    <string name="search_hint_tvshow">Search tv show...</string>
+    <string name="remove_film_alert_title">Remove movies</string>
+    <string name="remove_film_alert_sub">Are you sure you want to delete the movie from favorites?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="movies_widget">Movies Favorite</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty">Empty</string>
+    <string name="data_empty">Data Empty</string>
+    <string name="title_dialy">special from the movie catalog</string>
+    <string name="text_dialy">Come see the best film of the year!</string>
+    <string name="release_today">Release Movie</string>
+    <string name="title_release">has been release today</string>
+    <string name="detail_search_movie">Detail Search Movies</string>
+    <string name="detail_search_tvshow">Detail Search Tv Show</string>
+
+    <string name="key_reminder">key_reminder</string>
+    <string name="key_release_movie">key_release_movie</string>
+
+</resources>

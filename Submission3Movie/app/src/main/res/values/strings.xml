@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Submission3Movie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movies">Movies</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="url_film">en-US</string>
+    <string name="title_movies">Title Movies</string>
+    <string name="rating">Rating</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="overview">Overview</string>
+    <string name="detailTV">Detail TV Show</string>
+    <string name="detailMovies">Detail Movies</string>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tvshow.TVShowDetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.github.florent37.shapeofview.shapes.DiagonalView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:elevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shape_diagonal_angle="10"
+            app:shape_diagonal_direction="left"
+            app:shape_diagonal_position="bottom">
+
+            <ImageView
+                android:id="@+id/img_tvshow_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/colorSecondary" />
+
+        </com.github.florent37.shapeofview.shapes.DiagonalView>
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:id="@+id/poster"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="150dp"
+            android:elevation="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="40dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            app:shape_roundRect_bottomLeftRadius="10dp"
+            app:shape_roundRect_bottomRightRadius="10dp"
+            app:shape_roundRect_topLeftRadius="10dp"
+            app:shape_roundRect_topRightRadius="10dp">
+
+            <ImageView
+                android:id="@+id/img_tvshow_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/colorBlackSecondary" />
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+        <TextView
+            android:id="@+id/tv_title_tvshow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="16dp"
+            android:text="star wars the rise of skywalker"
+            android:textColor="@color/colorBlackPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/tv_release_tvshow_detail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toEndOf="@+id/poster"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_release_tvshow_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="16dp"
+            android:text="Release"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_tvshow_detail"
+            app:layout_constraintLeft_toRightOf="@id/poster"
+            android:textSize="12sp" />
+
+
+        <RatingBar
+            android:id="@+id/rating_tvshow_detail"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/divider"
+            app:layout_constraintLeft_toRightOf="@id/poster"
+            app:layout_constraintTop_toBottomOf="@id/tv_release_tvshow_detail"
+            app:layout_constraintVertical_bias="0.117" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorBlackPrimary"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/poster"/>
+
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/overview"
+            android:textColor="@color/colorBlackPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider" />
+
+
+        <TextView
+            android:id="@+id/tv_overview_tvshow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/overview"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            android:text="Overview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/overview"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit_tvshow_detail"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/colorSecondary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

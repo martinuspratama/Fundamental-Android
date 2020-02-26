@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="movies_favorite">Film</string>
+    <string name="tvshow_favorite">Acara TV</string>
+
+    <string name="release">Rilis :</string>
+    <string name="rating">Nilai :</string>
+    <string name="vote">Pemilih :</string>
+    <string name="overview">Sinopsis</string>
+</resources>
